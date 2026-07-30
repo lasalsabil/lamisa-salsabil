@@ -1,0 +1,556 @@
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+/* header starts */
+body{
+    width: 156%;
+}
+.head{
+}
+.head-top {
+    display: none;
+}
+.head-bottom {
+    margin-top: 0;
+    padding: 10px 0;
+}
+.logo {
+    margin: 0 0 0 0;
+    font-size: 18px;
+    letter-spacing: 0;
+}
+.menu ul li a {
+    margin-left: 5px;
+    padding: 16px 0 0;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.btn-lc a {
+    padding: 8px 20px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+/* header ends */
+/* hero starts */
+.hero-text{
+    padding: 20px 0;
+    text-align: center;
+}
+.hero-text h2{
+    font-size: 60px;
+}
+
+.hero-p2 {
+    font-size: 17px;
+}
+.hero-p3 {
+    margin: 20px 15px;
+}
+.hero-img {
+    padding: 0;
+}
+/* hero ends */
+/* about starts */
+.img-bbox {
+    height: 513px;
+    width: 438px;
+    margin: 0 18px;
+}
+.about-text {
+    padding: 0;
+    margin: 40px 0 0;
+    text-align: center;
+}
+.ab-p1{
+    margin-bottom: 14px;
+}
+.ab1-h3, .ab2-h3 {
+    font-size: 40px;
+}
+
+.ab-p2 {
+    margin: 25px 30px 15px !important;
+}
+
+/* about ends */
+
+/* resume start */
+.r-text {
+    text-align: center;
+    padding: 41px 0 0;
+}
+.r-text h4 {
+    font-size: 65px;
+}
+.rbtn a {
+    margin: 40px 0 60px;
+}
+.card {
+    padding: 25px 29px;
+    margin: 0 84px 80px;
+}
+/* resume ends */
+
+/* work starts */
+.work {
+    margin: 70px 0;
+}
+.work-head{
+    text-align: center;
+}
+.work-bot {
+    margin-top: 0;
+    overflow-x: hidden ;
+}
+
+.wb-p {
+    margin: 5px 0 0 0;
+    font-size: 32px;
+}
+.wb a {
+    padding: 8px 40px;
+    margin: 16px 158px 0 !important;
+}
+.wb-img {
+    margin-top: 35px !important;
+}
+.wb-img, .wb-text{
+    margin: 0 40px 0;
+}
+
+       .abhero-text h1 {
+        margin: 278px 0 0 -106px;
+    }
+
+.abhero-text2{
+    display: none;
+}
+#ad {
+    padding-top: 50px;
+}
+.ad-text, .ad-img{
+    padding: 0 30px 0 30px;
+}
+.ad-img img {
+    padding-top: 50px;
+}
+
+/* work ends */
+/* contact starts */
+.cont-text {
+    padding: 50px 0 40px;
+}
+.con-p2{
+    margin: 0 55px 55px;
+}
+.cmail, .cloc, .cnum{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cmail a{
+    font-size: 20px;
+}
+.cloc a, .cnum a{
+    padding-left: 0;
+    font-size: 20px;
+}
+/* contact ends */
+/* footer starts */
+.foot-top {
+    padding: 50px 0;
+}
+.fll {
+    margin: 0 40px 50px;
+    text-align: center;
+}
+.flogo-sub {
+    margin: 13px 0 10px 2px;
+}
+.fright p{
+    margin-left: 6px;
+    text-align: center;
+}
+.fright ul{
+    padding: 0 120px;
+}
+
+/* footer ends */
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* header starts */
+.head-top h4 {
+    font-size: 16px;
+}
+
+.menu ul li a {
+    margin-left: 5px;
+    padding: 16px 0 0;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn-lc a {
+    padding: 8px 20px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+/* header ends */
+/* hero starts */
+.hero-text{
+    padding: 20px 0;
+    text-align: center;
+}
+.hero-p3 {
+    margin: 20px 25px;
+}
+.hero-img {
+    padding: 0;
+}
+/* hero ends */
+/* about starts */
+.img-bbox {
+    height: 513px;
+    width: 438px;
+    margin: 0 39px;
+}
+.about-text {
+    padding: 0;
+    margin: 40px 0 0;
+    text-align: center;
+}
+.ab-p1{
+    margin-bottom: 14px;
+}
+.ab1-h3, .ab2-h3 {
+    font-size: 45px;
+}
+
+/* about ends */
+
+/* resume start */
+.r-text {
+    text-align: center;
+    padding: 41px 0 0;
+}
+.r-text h4 {
+    font-size: 65px;
+}
+.rbtn a {
+    margin: 40px 0 60px;
+}
+.card {
+    padding: 25px 29px;
+    margin: 0 84px 80px;
+}
+/* resume ends */
+
+/* work starts */
+.work {
+    margin: 70px 0;
+}
+.work-bot {
+    margin-top: 0;
+    overflow-x: hidden ;
+}
+
+.wb-p {
+    margin: 5px 0 0 0;
+    font-size: 32px;
+}
+.wb a{
+    padding: 8px 25px;
+    margin: 0 0 0 100px !important;
+}
+.wb-img {
+    margin-top: 35px !important;
+}
+.wb-img, .wb-text{
+    margin: 0 40px 0;
+}
+    .abhero-text h1 {
+        margin: 278px 0 0 -211px;
+    }
+
+.abhero-text2{
+    display: none;
+}
+#ad {
+    padding-top: 50px;
+}
+.ad-img img {
+    padding-top: 50px;
+}
+/* work ends */
+/* contact starts */
+.cont-text {
+    padding: 50px 0 40px;
+}
+.con-p2{
+    margin: 0 55px 55px;
+}
+.cmail, .cloc, .cnum{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cmail a{
+    font-size: 20px;
+}
+.cloc a, .cnum a{
+    padding-left: 0;
+    font-size: 20px;
+}
+/* contact ends */
+/* footer starts */
+.foot-top {
+    padding: 50px 0;
+}
+.fll {
+    margin: 0 40px 50px;
+    text-align: center;
+}
+.flogo-sub {
+    margin: 13px 0 10px 2px;
+}
+.fright p{
+    margin-left: 6px;
+    text-align: center;
+}
+.fright ul{
+    padding: 0 120px;
+}
+
+/* footer ends */
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* header starts */
+.menu ul li a {
+    margin-left: 5px;
+    padding: 16px 0 0;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn-lc a {
+    padding: 8px 20px;
+    margin-top: 12px;
+    font-weight: 600;
+}
+/* header ends */
+
+/* hero starts */
+.hero-text{
+    padding: 20px 0;
+    text-align: center;
+}
+.hero-p3 {
+    margin: 20px 25px;
+}
+.hero-img {
+    padding: 0 60px;
+}
+/* hero ends */
+
+/* about starts */
+.img-bbox {
+    height: 513px;
+    width: 438px;
+    margin: 0 130px;
+}
+.about-text {
+    padding: 0;
+    margin: 40px 0 0;
+    text-align: center;
+}
+.ab-p1{
+    margin-bottom: 14px;
+}
+.ab1-h3, .ab2-h3 {
+    font-size: 45px;
+}
+
+/* about ends */
+
+/* resume start */
+.r-text {
+    text-align: center;
+    padding: 41px 0 0;
+}
+.r-text h4 {
+    font-size: 65px;
+}
+.rbtn a{
+    padding: 12px 38px;
+    margin-top: 30px;
+}
+.card {
+    padding: 25px 20px;
+    margin: 80px 0 90px;
+}
+/* resume ends */
+
+/* work starts */
+.work-bot {
+    margin-top: 0;
+    overflow-x: hidden ;
+}
+
+.wb-p {
+    margin: 3px 0 0 0;
+    font-size: 32px;
+}
+.wb a {
+    margin: 0 0 0 25px !important;
+}
+.wb-img {
+    margin: 35px 0 0;
+}
+.abhero-text h1 {
+    margin: 278px 0 0 -128px;
+}
+
+.abhero-text2{
+    display: none;
+}
+#ad {
+    padding-top: 50px;
+}
+.ad-img img {
+    padding-top: 50px;
+}
+
+/* work ends */
+/* contact starts */
+.cont-text {
+    padding: 50px 0 40px;
+}
+.con-p2{
+    margin: 0 55px 55px;
+}
+.cmail, .cloc, .cnum{
+    margin-bottom: 15px;
+    text-align: center;
+}
+.cmail a{
+    font-size: 20px;
+}
+.cloc a, .cnum a{
+    padding-left: 0;
+    font-size: 20px;
+}
+/* contact ends */
+
+/* foot starts */
+.foot-top {
+    padding: 80px 168px;
+    text-align: center;
+}
+
+.fright {
+    padding: 45px 76px;
+}
+/* foot ends */
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* header starts */
+.logo {
+    letter-spacing: 1px;
+}
+.menu ul li {
+    margin-right: 14px;
+}
+/* header ends */
+
+/* hero starts */
+.hero-text {
+    padding: 60px 0;
+}
+.hero-p2 {
+    font-size: 18px;
+}
+
+.hero-p3 {
+    margin: 20px 50px 35px 0;
+     font-size: 14px;
+}
+
+.hero-img img{
+    padding: 12px 0;
+}
+
+/* hero ends */
+
+/* about starts */
+.img-bbox {
+    height: 513px;
+    width: 438px;
+}
+.about-text {
+    padding: 0;
+}
+.ab-p1{
+    margin-bottom: 14px;
+}
+.ab1-h3, .ab2-h3 {
+    font-size: 45px;
+}
+
+.ab-p2{
+    font-size: 15px;
+    margin: 22px 0 0 3px;
+}
+
+.p2-span{
+    display: none;
+}
+
+/* about ends */
+
+/* resume starts */
+.r-text {
+    padding: 112px 0;
+}
+.r-text h4 {
+    font-size: 45px;
+}
+/* resume ends */
+
+/* work starts */
+.wb-p {
+    margin: 8px 0 0 0 !important;
+    font-size: 34px;
+}
+.wb a {
+    margin: 0 0 0 50px !important;
+}
+.wb-text p {
+    margin: 0 0 0 7px;
+}
+/* work ends */
+
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+ }
+
+
+/*// Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
